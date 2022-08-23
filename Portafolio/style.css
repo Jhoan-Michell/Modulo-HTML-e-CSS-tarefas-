@@ -1,0 +1,178 @@
+.Titulo1 {
+    color:rgb(255, 255, 255);
+    margin: 40px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: rgb(83, 79, 79);
+}  
+
+.background {
+    background-image: url('/Portafolio/fundoedit.jpg');
+    background-size: 1500px 1000px;
+    background-position: 0px 0px 3000px;
+}
+
+.Bem-vindas {
+    color: white;
+}
+
+.comentario {
+    color: white;
+    font-size: 18px;
+    
+}
+
+.tituloimg {
+    color: white;
+    border: 1px solid black;
+    padding:3px;
+    background-color: rgb(83, 79, 79);
+    border-radius: 30px;
+    width: 300px;
+   
+}
+
+.navegador {
+    color: white;
+    font-size: 18px;
+}
+
+.imgpython1 {
+    border: 1px groove white;
+}
+
+.imgpython2 {
+    width: 504px;
+    height: 277px;
+    border: 1px groove white;
+}
+
+.imgpython3 {
+    width: 504px;
+    height: 350px;
+    border: 1px groove white;
+}
+
+.comentario3 {
+    color: white;
+    text-align:center;
+    font-size: 19px;
+}
+
+.title-project {
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 42%;
+    border: 1px groove white;
+    width: 250px;
+    border-radius: 30px;
+    background-color: rgba(83, 79, 79);
+    padding: 2px;
+}
+
+.lineal {
+    border: 1px solid white;
+    margin: 30px;
+    
+}
+
+.divfooter {
+    text-align: center;
+}
+
+
+.photoprofile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px groove white;
+}
+
+.name {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    border: 1px groove white;
+    border-radius: 30px;
+    position: absolute;
+    left: 42%;
+    background-color: rgba(83, 79, 79);
+    padding: 7px;
+}
+
+.pfooter {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    border: 1px groove white;
+    position: absolute;
+    left: 43%;
+    border-radius: 30px;
+    padding: 7px;
+    background-color: rgba(83, 79, 79);
+}
+
+.pfooter2 {
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    border: 1px groove white;
+    border-radius: 30px;
+    background-color: rgba(83, 79, 79);
+    padding: 7px;
+    font-size: 18px;
+}
+
+.logogit {
+    width: 70px;
+    height: 60px;
+    border-radius: 45%;
+    position: absolute;
+    right: 130px;
+}
+
+.logoIns {
+   width: 70px;
+   height: 60px;
+   border-radius: 45%;
+   position: absolute;
+   right:24px;
+   margin: 103px;
+}
+
+.statusProject {
+    color: white;
+    text-align: center;
+    border: 1px groove white;
+    border-radius: 30px;
+    width: 400px;
+    position: absolute;
+    right: 557px;
+    background-color: rgba(83, 79, 79);
+}
+
+.imagendecarga {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 710px;
+    border-radius: 45%;
+}
+
+.styleViewer {
+    color: rgb(209, 157, 157);
+}
+
+.divIncial {
+    text-align: center;
+}
+
+.p-links {
+    color: white;
+    position: absolute;
+    right: 140px;
+    font-size: 18px;
+}
