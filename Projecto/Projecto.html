@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projeto</title>
+    <link rel="stylesheet" href="./projecto.css">
+    <link rel="shortcut icon" href="./favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" 
+    crossorigin="anonymous">
+    </head>
+  
+    <body>
+    <header class="header">
+      <img class="iconCal" src="./calculadora.png" alt="calculadora.png">
+      <h1>Converção de moeda</h1>
+      <h6 class="titleCoin" id="title"></h6>
+    </header>
+    <p>Data: <span class="" id="thisdate"></span></p>
+      <h5 class="titleCotacoes">Cotações em Tempo Real<br>Do Dolar a Real</h5>
+      <div id="divPosi">
+    <p id="value">
+      Valor Máximo: <span id="maxvalue"></span><br>
+      Valor Mínimo: <span id="minvalue"></span>
+      <h6  class ="titleBolivar" id="titleRealBolivar"></h6>
+      <h5 class="titleCotacoes2">Cotações em Tempo Real<br>Do Real a Bolivar</h5>
+      <p id="value2">
+        Valor Máximo: <span id="maxvalue2"></span><br>
+        Valor Mínimo: <span id="minvalue2"></span>
+      </p>
+      </div>
+      <div id="linhas">
+      <div id="display"><span id="expressao"> </span> <span id="resultado"> </span></div>
+      <div id="#"><button class="press">L</button><button class="press">+</button><button class="press">-</button><button class="press">=</button></div>
+      <div id="linha1"><button class="press">7</button><button class="press">8</button><button class="press">9</button><button class="press">/</button></div>
+      <div id="linha2"><button class="press">4</button><button class="press">5</button><button class="press">6</button><button class="press">*</button></div>
+      <div id="linha3"><button class="press">1</button><button class="press">2</button><button class="press">3</button><button class="press">.</button></div>
+      <div id="linha0"><button class="press">0</button><button class="press">MC</button><button class="press">MR</button><button class="press">M+</button></div>
+      </div>
+      
+      
+      
+    <script src="./cotacoes.js">
+    </script>  
+  </body>
+</html>
