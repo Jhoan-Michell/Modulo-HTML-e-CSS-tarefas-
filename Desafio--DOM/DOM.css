@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@700&family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#idTitle1 {
+    background-color:bisque;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+.title2 {
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 225px;
+    padding-left: 30px;
+    margin-left: 40px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+body {
+    background-image: url(https://img.freepik.com/fotos-premium/carrinho-de-compras-desfocado-no-fundo-do-supermercado_36078-518.jpg?w=996);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.showLista {
+    background-color: white;
+    border-radius: 15px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#listInput {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.input {
+    padding: 5px;
+}
+
+.button {
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px groove black;
+}
+
+.button:hover {
+    background-color: rgb(172, 167, 167);
+}   
+
+#limpar {
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px groove black;
+}
+
+#limpar:hover {
+    background-color: rgb(172, 167, 167);
+}
+
+#remover {
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px groove black;
+}
+
+#remover:hover {
+    background-color: rgb(172, 167, 167);
+}

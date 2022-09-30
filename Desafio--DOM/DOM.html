@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./DOM.css">
+    <title>Manipulando a DOM | Desafio</title>
+</head>
+<body>
+    <header>
+        <h1 id="idTitle1">Manipulando a DOM | Desafio</h1>
+        <h2 class="title2">Lista do Mercado</h2>
+    </header>
+    <div id="listInput">
+        <div class="showLista" id="divLista"></div>
+        <input id="input-item" class="input" type="text" placeholder="Digite o item" onfocus="this.value='';">
+        <button id="id-button" class="button">Adicionar a lista</button>
+        <button id="limpar" onclick="limpar()">limpar</button>
+    </div>
+    
+    <script src="./Desafio-DOM.js"></script>
+</body>
+</html>
